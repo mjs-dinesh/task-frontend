@@ -1,0 +1,82 @@
+@import '../../index.scss';
+.home_screen {
+  width: 100vw;
+  height: 100vh;
+  .home_container {
+    height: 100%;
+    width: 100%;
+    .home_wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      .card_container {
+        width: 30vw;
+        height: 50%;
+        margin: 1em;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        background: $primary-color;
+        border-radius: 20px;
+        .card_wrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          .head {
+            color: $white;
+            font-size: 32px;
+            font-weight: normal !important;
+            padding-bottom: 1em;
+          }
+          .user_info_container {
+            color: white;
+            .user_info_wrapper {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              width: 100%;
+              padding: 0.5em;
+              .user_info_label {
+                width: 50%;
+              }
+              .user_info {
+                width: 50%;
+              }
+            }
+          }
+          .action_container {
+            margin-top: 2em;
+            .action_wrapper {
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              width: 100%;
+              margin-right: 2em;
+              .update_button_container {
+                .update_button {
+                  background: $white !important;
+                  color: $primary-color;
+                }
+              }
+              .logout_button_contauner {
+                .logout_button {
+                  background: $white !important;
+                  color: $primary-color;
+                }
+              }
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+.edit_user_container{
+  width: 25vw;
+  height: 30vh;
+}

@@ -1,2 +1,73 @@
-$white : #ffffff;
-$black : #000000
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$white: #ffffff;
+$black: #000000;
+$yellow: #ffd700;
+$border: #e4e4e4;
+$primary-color: teal;
+$border-light: #f0f3f6;
+$gray-dark: #808191;
+$gray-light: #b2b3bd;
+$dark: #1f2128;
+$dark1: #242731;
+$border-dark: rgba($border, 0.1);
+$error: #d42323;
+
+//ui
+$uiHeight: 46px;
+$uiBorder: 3px;
+$uiBorderRadius: 8px;
+$uiInputBorder: 5px solid $border;
+$boxShadow: 0px 0px 50px 10px $black;
+$h6: 12px;
+$h5: 14px;
+$h4: 16px;
+$h3: 18px;
+$h2: 24px;
+$h1: 36px;
+.h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}

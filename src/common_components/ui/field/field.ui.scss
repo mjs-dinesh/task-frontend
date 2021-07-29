@@ -1,0 +1,31 @@
+@import '../../../index.scss';
+
+.input_container {
+  margin: 0.5em;
+  .input {
+    width: 100%;
+    height: $uiHeight;
+    border: 3px solid $border;
+    border-radius: $uiBorderRadius;
+    padding-left: 1em;
+    outline: none;
+  }
+  .input_textarea {
+    height: 100px;
+    padding: 0.5em;
+  }
+  .input:focus {
+    border: 3px solid $primary-color;
+    border-radius: $uiBorderRadius;
+  }
+  .input_wide {
+    width: 98%;
+  }
+  .input_short{
+    width: fit-content;
+  }
+  .label_container {
+    color: $gray-dark;
+    padding: 0.5em 0em;
+  }
+}

@@ -27,7 +27,8 @@ module.exports = {
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
     "react/jsx-one-expression-per-line": "off",
-    "no-confusing-arrow": "off"
+    "no-confusing-arrow": "off",
+    "react/jsx-closing-bracket-location": "off"
     // You can override any rules you want
   },
   plugins: [
